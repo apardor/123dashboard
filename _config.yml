@@ -1,0 +1,17 @@
+# Site settings
+title: 123press Dashboard
+email: andres@mediebruket.no
+author: Andrés
+description: 123press ny dashboard
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+include: ['_pages']
+
+# plugins
+plugins: [jekyll-paginate]
+paginate: 3
